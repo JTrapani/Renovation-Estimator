@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8441D4F19AD6C13009A0486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8441D4E19AD6C13009A0486 /* AppDelegate.swift */; };
+		D8441D5219AD6C13009A0486 /* Renovationator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8441D5019AD6C13009A0486 /* Renovationator.xcdatamodeld */; };
+		D8441D5919AD6C13009A0486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8441D5819AD6C13009A0486 /* Images.xcassets */; };
+		D8441D6519AD6C13009A0486 /* RenovationatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8441D6419AD6C13009A0486 /* RenovationatorTests.swift */; };
+		D8441D6F19AD6CD7009A0486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8441D6E19AD6CD7009A0486 /* Main.storyboard */; };
+		D8441D7119AD6D3D009A0486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8441D7019AD6D3D009A0486 /* ViewController.swift */; };
+		D8441D7319AD6D96009A0486 /* TRPS Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8441D7219AD6D96009A0486 /* TRPS Logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8441D5F19AD6C13009A0486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8441D4119AD6C13009A0486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8441D4819AD6C13009A0486;
+			remoteInfo = Renovationator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8441D4919AD6C13009A0486 /* Renovationator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renovationator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8441D4D19AD6C13009A0486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8441D4E19AD6C13009A0486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8441D5119AD6C13009A0486 /* Renovationator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Renovationator.xcdatamodel; sourceTree = "<group>"; };
+		D8441D5819AD6C13009A0486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8441D5E19AD6C13009A0486 /* RenovationatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenovationatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8441D6319AD6C13009A0486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8441D6419AD6C13009A0486 /* RenovationatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationatorTests.swift; sourceTree = "<group>"; };
+		D8441D6E19AD6CD7009A0486 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D8441D7019AD6D3D009A0486 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D8441D7219AD6D96009A0486 /* TRPS Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TRPS Logo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8441D4619AD6C13009A0486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8441D5B19AD6C13009A0486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8441D4019AD6C13009A0486 = {
+			isa = PBXGroup;
+			children = (
+				D8441D4B19AD6C13009A0486 /* Renovationator */,
+				D8441D6119AD6C13009A0486 /* RenovationatorTests */,
+				D8441D4A19AD6C13009A0486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8441D4A19AD6C13009A0486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8441D4919AD6C13009A0486 /* Renovationator.app */,
+				D8441D5E19AD6C13009A0486 /* RenovationatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8441D4B19AD6C13009A0486 /* Renovationator */ = {
+			isa = PBXGroup;
+			children = (
+				D8441D4E19AD6C13009A0486 /* AppDelegate.swift */,
+				D8441D6E19AD6CD7009A0486 /* Main.storyboard */,
+				D8441D5819AD6C13009A0486 /* Images.xcassets */,
+				D8441D5019AD6C13009A0486 /* Renovationator.xcdatamodeld */,
+				D8441D7019AD6D3D009A0486 /* ViewController.swift */,
+				D8441D4C19AD6C13009A0486 /* Supporting Files */,
+			);
+			path = Renovationator;
+			sourceTree = "<group>";
+		};
+		D8441D4C19AD6C13009A0486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8441D7219AD6D96009A0486 /* TRPS Logo.jpg */,
+				D8441D4D19AD6C13009A0486 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8441D6119AD6C13009A0486 /* RenovationatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8441D6419AD6C13009A0486 /* RenovationatorTests.swift */,
+				D8441D6219AD6C13009A0486 /* Supporting Files */,
+			);
+			path = RenovationatorTests;
+			sourceTree = "<group>";
+		};
+		D8441D6219AD6C13009A0486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8441D6319AD6C13009A0486 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8441D4819AD6C13009A0486 /* Renovationator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8441D6819AD6C13009A0486 /* Build configuration list for PBXNativeTarget "Renovationator" */;
+			buildPhases = (
+				D8441D4519AD6C13009A0486 /* Sources */,
+				D8441D4619AD6C13009A0486 /* Frameworks */,
+				D8441D4719AD6C13009A0486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Renovationator;
+			productName = Renovationator;
+			productReference = D8441D4919AD6C13009A0486 /* Renovationator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8441D5D19AD6C13009A0486 /* RenovationatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8441D6B19AD6C13009A0486 /* Build configuration list for PBXNativeTarget "RenovationatorTests" */;
+			buildPhases = (
+				D8441D5A19AD6C13009A0486 /* Sources */,
+				D8441D5B19AD6C13009A0486 /* Frameworks */,
+				D8441D5C19AD6C13009A0486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8441D6019AD6C13009A0486 /* PBXTargetDependency */,
+			);
+			name = RenovationatorTests;
+			productName = RenovationatorTests;
+			productReference = D8441D5E19AD6C13009A0486 /* RenovationatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8441D4119AD6C13009A0486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Joe Trapani";
+				TargetAttributes = {
+					D8441D4819AD6C13009A0486 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D8441D5D19AD6C13009A0486 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D8441D4819AD6C13009A0486;
+					};
+				};
+			};
+			buildConfigurationList = D8441D4419AD6C13009A0486 /* Build configuration list for PBXProject "Renovationator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8441D4019AD6C13009A0486;
+			productRefGroup = D8441D4A19AD6C13009A0486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8441D4819AD6C13009A0486 /* Renovationator */,
+				D8441D5D19AD6C13009A0486 /* RenovationatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8441D4719AD6C13009A0486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8441D6F19AD6CD7009A0486 /* Main.storyboard in Resources */,
+				D8441D5919AD6C13009A0486 /* Images.xcassets in Resources */,
+				D8441D7319AD6D96009A0486 /* TRPS Logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8441D5C19AD6C13009A0486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8441D4519AD6C13009A0486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8441D7119AD6D3D009A0486 /* ViewController.swift in Sources */,
+				D8441D5219AD6C13009A0486 /* Renovationator.xcdatamodeld in Sources */,
+				D8441D4F19AD6C13009A0486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8441D5A19AD6C13009A0486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8441D6519AD6C13009A0486 /* RenovationatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8441D6019AD6C13009A0486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8441D4819AD6C13009A0486 /* Renovationator */;
+			targetProxy = D8441D5F19AD6C13009A0486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8441D6619AD6C13009A0486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8441D6719AD6C13009A0486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8441D6919AD6C13009A0486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Renovationator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8441D6A19AD6C13009A0486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Renovationator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8441D6C19AD6C13009A0486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RenovationatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renovationator.app/Renovationator";
+			};
+			name = Debug;
+		};
+		D8441D6D19AD6C13009A0486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RenovationatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renovationator.app/Renovationator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8441D4419AD6C13009A0486 /* Build configuration list for PBXProject "Renovationator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8441D6619AD6C13009A0486 /* Debug */,
+				D8441D6719AD6C13009A0486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8441D6819AD6C13009A0486 /* Build configuration list for PBXNativeTarget "Renovationator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8441D6919AD6C13009A0486 /* Debug */,
+				D8441D6A19AD6C13009A0486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8441D6B19AD6C13009A0486 /* Build configuration list for PBXNativeTarget "RenovationatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8441D6C19AD6C13009A0486 /* Debug */,
+				D8441D6D19AD6C13009A0486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8441D5019AD6C13009A0486 /* Renovationator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8441D5119AD6C13009A0486 /* Renovationator.xcdatamodel */,
+			);
+			currentVersion = D8441D5119AD6C13009A0486 /* Renovationator.xcdatamodel */;
+			path = Renovationator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D8441D4119AD6C13009A0486 /* Project object */;
+}
